@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: #056679;
+  font-family: sans-serif;
+}
+.todo-container {
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.input-section {
+  background-color: #055565;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 7px 6px #0000003b;
+}
+.input-section input {
+  border-radius: 5px;
+  border: 1px solid #106879;
+  width: 100%;
+  padding: 10px;
+  background-color: #055565;
+  outline: none;
+  box-sizing: border-box;
+  color: #08869e;
+}
+input::placeholder {
+  color: #08869e;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 15px;
+  color: #0c7588;
+}
+ul {
+  padding: 0;
+  text-align: left;
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #055565;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 7px 6px #0000003b;
+  color: #0c7588;
+}
+ul li i {
+  text-align: right;
+  flex: 1;
+  cursor: pointer;
+}
+#check {
+  color: rgb(221, 228, 234);
+}
+.icons i {
+  margin-left: 8px;
+}
+#line-break {
+  text-decoration: line-through;
+}
+.listItems input {
+    display: none;
+  border-radius: 5px;
+  border: 1px solid #106879;
+  width: 100%;
+  padding: 10px;
+  background-color: #055565;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  box-shadow: 0 7px 6px #0000003b;
+  color: #08869e;
+}
